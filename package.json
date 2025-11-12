@@ -1,0 +1,31 @@
+{
+  "name": "base-nft-minter-erc721",
+  "version": "1.0.0",
+  "private": false,
+  "description": "NFT Minter ERC721 (metadata) pour Base Sepolia (Solidity + Hardhat + Frontend).",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:base": "hardhat run scripts/deploy.js --network base_sepolia"
+  },
+  "keywords": [
+    "base",
+    "coinbase",
+    "sepolia",
+    "web3",
+    "solidity",
+    "hardhat",
+    "ethers",
+    "nft",
+    "erc721",
+    "metadata"
+  ],
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "ethers": "^6.7.0",
+    "@openzeppelin/contracts": "^5.0.0"
+  },
+  "license": "MIT"
+}
